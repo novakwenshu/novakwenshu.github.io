@@ -1,0 +1,52 @@
+body {
+    background:cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment{
+    width:22%;
+    padding:10px;
+    margin:10px;
+    padding:20px 10px;
+    background:lightsteelblue;
+    border-radius: 10px;
+}
+
+.assignment img {
+    width:200px;
+    margin: 10px;
+    border: 2px solid black;
+    display:block;
+    margin:auto;
+}
+
+.assignment img:hover {
+    border: 2px solid lightslategrey;
+}
+
+h1 {
+    color:azure;
+    text-align: center;
+}
+
+h1:hover {
+    color: whitesmoke;
+}
+
+h2{
+    text-align:center;
+}
+
+a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+a:hover {
+    color:lightslategrey;
+}
